@@ -1,0 +1,16 @@
+# Equivalence check, no simulator: replay recorded policy inputs of j1/j2 (first 40 calls of the first
+# episodes) through our policy (GPU 0) and through openpi's own Policy (GPU 1), with each run's config.
+# Compare both to the recorded chunks with: python -m vlalab.analysis.verify runs/verify
+# Dataset: built by `python -m vlalab.analysis.pack_replay` and uploaded with `kaggle datasets create`.
+mode: replay
+datasets: ["{user}/vlalab-replay-pack"]
+defaults:
+  replay: {max_calls: 40}
+arms:
+  # arm i runs on GPU i % 2: even = ours, odd = openpi reference
+  ours_steps10:   {replay: {episodes: "j1__base_t0__*.npz"}}
+  openpi_steps10: {replay: {episodes: "j1__base_t0__*.npz", impl: openpi}}
+  ours_steps1:    {policy: {num_steps: 1}, replay: {episodes: "j2__steps1__*.npz"}}
+  openpi_steps1:  {policy: {num_steps: 1}, replay: {episodes: "j2__steps1__*.npz", impl: openpi}}
+  ours_steps3:    {policy: {num_steps: 3}, replay: {episodes: "j2__steps3__*.npz"}}
+  openpi_steps3:  {policy: {num_steps: 3}, replay: {episodes: "j2__steps3__*.npz", impl: openpi}}

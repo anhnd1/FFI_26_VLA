@@ -1,0 +1,21 @@
+[project]
+name = "vlalab"
+version = "0.1.0"
+description = "pi0.5 on LIBERO: own inference pipeline, flow sampler, evaluation and analysis on top of openpi"
+requires-python = ">=3.8"
+# Each part runs in its own environment (see README): policy/ in openpi's venv, sim/ in the LIBERO venv,
+# analysis/ locally. Only the analysis extras are installed through this file.
+dependencies = []
+
+[project.optional-dependencies]
+analysis = ["numpy", "pandas", "scipy", "matplotlib", "pyyaml"]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 120

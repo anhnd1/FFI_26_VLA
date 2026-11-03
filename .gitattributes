@@ -1,0 +1,3 @@
+# Keep LF in the working tree: kaggle/push.py tars these files and bash on Kaggle fails on CRLF.
+* text=auto eol=lf
+*.png binary

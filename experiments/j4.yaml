@@ -1,0 +1,9 @@
+# Moka pots (libero_10 task 8), initial states 0-14, under two noise seeds.
+# Does another noise draw rescue a failing initial state? Premise for noise-space / residual RL on a frozen pi0.5.
+# noise=episode: an episode's noise depends only on (seed, task, initial state, call), so the arms differ only in seed.
+defaults:
+  policy: {noise: episode}
+  eval: {suite: libero_10, tasks: [8], trials: 15}
+arms:
+  seed0: {policy: {seed: 0}}
+  seed1: {policy: {seed: 1}}

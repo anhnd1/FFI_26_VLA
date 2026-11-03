@@ -1,0 +1,18 @@
+# openpi is a pinned library dependency (envs/openpi.txt), cloned locally for reading, never committed
+/openpi/
+# raw job outputs (~1 GB of recorded images and videos); curated results live in results/
+/runs/
+/kaggle/build/
+/build/
+# stage-1 material kept locally
+/legacy/
+# assistant workspace files
+/CLAUDE.md
+/.claude/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+# paper PDFs (third-party copyright)
+/.docs/
+# write-up and presentation are kept outside the repo
+/report/

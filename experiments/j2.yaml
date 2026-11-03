@@ -1,0 +1,6 @@
+# Number of flow-matching (Euler) integration steps; compare with j1/base_t0 (10 steps, same initial states 0-1).
+defaults:
+  eval: {suite: libero_10, trials: 2}
+arms:
+  steps1: {policy: {num_steps: 1}}
+  steps3: {policy: {num_steps: 3}}

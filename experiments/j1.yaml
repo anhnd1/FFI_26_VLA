@@ -1,0 +1,7 @@
+# Baseline pi05_libero on LIBERO-Long (libero_10): 10 Euler steps, execute 5 of 10 actions per call.
+# Two arms split initial states 0-1 and 2-3, so 4 episodes per task, 40 in total.
+defaults:
+  eval: {suite: libero_10, trials: 2}
+arms:
+  base_t0: {}
+  base_t2: {eval: {start_trial: 2}}

@@ -1,0 +1,6 @@
+# Open-loop horizon: execute the whole 10-action chunk before re-planning (half the policy calls).
+defaults:
+  eval: {suite: libero_10, trials: 2}
+arms:
+  replan10: {eval: {replan_steps: 10}}
+  steps3_replan10: {policy: {num_steps: 3}, eval: {replan_steps: 10}}

@@ -1,0 +1,131 @@
+run,config,suite,task,task_id,episode_idx,success,env_steps,n_calls,grasp_attempts,releases,gripper_switches,path_m,stall_frac,disagree_mean,disagree_p90
+j1/base_t0,"10 steps, replan 5",libero_10,put both the alphabet soup and the tomato sauce in the basket,0,0,1,278,56,2,1,6,1.8981538617134253,0.017857142857142856,0.07625847864174672,0.11796890779198742
+j1/base_t0,"10 steps, replan 5",libero_10,put both the alphabet soup and the tomato sauce in the basket,0,1,1,273,55,2,1,4,1.7340165069669538,0.01818181818181818,0.08485133882110325,0.1318398966798315
+j1/base_t0,"10 steps, replan 5",libero_10,put both the cream cheese box and the butter in the basket,1,0,1,237,48,2,1,3,2.0026614038900354,0.0,0.08450261643247736,0.15018709210751713
+j1/base_t0,"10 steps, replan 5",libero_10,put both the cream cheese box and the butter in the basket,1,1,1,242,49,2,1,4,2.1313779340149055,0.0,0.09020828155795328,0.14376783857621822
+j1/base_t0,"10 steps, replan 5",libero_10,turn on the stove and put the moka pot on it,2,0,1,218,44,2,1,3,1.4248074339993302,0.045454545454545456,0.07092890337769764,0.12079798620692392
+j1/base_t0,"10 steps, replan 5",libero_10,turn on the stove and put the moka pot on it,2,1,1,289,58,2,1,3,1.4410489287289352,0.0,0.07083448257179902,0.1204524738663049
+j1/base_t0,"10 steps, replan 5",libero_10,put the black bowl in the bottom drawer of the cabinet and close it,3,0,1,221,45,1,1,2,1.3515019497710254,0.0,0.07977078195265092,0.13857091988247328
+j1/base_t0,"10 steps, replan 5",libero_10,put the black bowl in the bottom drawer of the cabinet and close it,3,1,1,221,45,1,1,2,1.3630138039642565,0.0,0.07801448744870605,0.139668712993928
+j1/base_t0,"10 steps, replan 5",libero_10,put the white mug on the left plate and put the yellow and white mug on the right plate,4,0,1,232,47,2,1,3,1.5994767405699466,0.0,0.08465212649147749,0.16412782560067068
+j1/base_t0,"10 steps, replan 5",libero_10,put the white mug on the left plate and put the yellow and white mug on the right plate,4,1,1,222,45,2,1,5,1.4765720640960944,0.022222222222222223,0.06373377667967849,0.12042984512880567
+j1/base_t0,"10 steps, replan 5",libero_10,pick up the book and place it in the back compartment of the caddy,5,0,1,162,33,1,0,1,0.988917976706827,0.030303030303030304,0.07467501320513456,0.0900000991681768
+j1/base_t0,"10 steps, replan 5",libero_10,pick up the book and place it in the back compartment of the caddy,5,1,1,145,29,1,0,1,0.9624592119554516,0.0,0.06318585037186666,0.10672551870475724
+j1/base_t0,"10 steps, replan 5",libero_10,put the white mug on the plate and put the chocolate pudding to the right of the plate,6,0,1,202,41,2,1,3,1.2159484309706161,0.0,0.05971426834809638,0.09805757242114661
+j1/base_t0,"10 steps, replan 5",libero_10,put the white mug on the plate and put the chocolate pudding to the right of the plate,6,1,1,237,48,2,1,5,1.2352544501578042,0.0625,0.07150533485056064,0.12978374806383136
+j1/base_t0,"10 steps, replan 5",libero_10,put both the alphabet soup and the cream cheese box in the basket,7,0,1,232,47,2,1,4,1.7827528441464513,0.0,0.09653430687741273,0.15550539240496106
+j1/base_t0,"10 steps, replan 5",libero_10,put both the alphabet soup and the cream cheese box in the basket,7,1,1,265,53,2,1,8,1.778512337504171,0.0,0.09765034723197971,0.193885302403868
+j1/base_t0,"10 steps, replan 5",libero_10,put both moka pots on the stove,8,0,0,520,104,2,1,9,2.1581413039010826,0.028846153846153848,0.10631019358837311,0.2527865827416959
+j1/base_t0,"10 steps, replan 5",libero_10,put both moka pots on the stove,8,1,1,357,72,2,1,3,2.104489317864832,0.0,0.06656019381638903,0.119467539303776
+j1/base_t0,"10 steps, replan 5",libero_10,put the yellow and white mug in the microwave and close it,9,0,1,245,49,1,1,4,1.456912056613279,0.0,0.0871527711475445,0.15659840628935884
+j1/base_t0,"10 steps, replan 5",libero_10,put the yellow and white mug in the microwave and close it,9,1,1,276,56,1,1,6,1.6356002286519038,0.017857142857142856,0.11714543655974127,0.21414209470997475
+j1/base_t2,"10 steps, replan 5",libero_10,put both the alphabet soup and the tomato sauce in the basket,0,2,1,249,50,2,2,8,1.694377471992388,0.0,0.08699304481123167,0.1509573453622141
+j1/base_t2,"10 steps, replan 5",libero_10,put both the alphabet soup and the tomato sauce in the basket,0,3,1,315,63,2,1,18,1.92804737478546,0.031746031746031744,0.12516014813890528,0.3972908698947875
+j1/base_t2,"10 steps, replan 5",libero_10,put both the cream cheese box and the butter in the basket,1,2,1,242,49,2,1,4,2.0465230972302715,0.0,0.08432252776219684,0.14688795444693636
+j1/base_t2,"10 steps, replan 5",libero_10,put both the cream cheese box and the butter in the basket,1,3,1,265,53,2,1,8,2.169690802996589,0.0,0.08789608026391386,0.17099792713194253
+j1/base_t2,"10 steps, replan 5",libero_10,turn on the stove and put the moka pot on it,2,2,1,287,58,2,1,4,1.3412104061035166,0.08620689655172414,0.1212492370401429,0.24861203256051875
+j1/base_t2,"10 steps, replan 5",libero_10,turn on the stove and put the moka pot on it,2,3,1,270,54,2,1,3,1.4268487108697245,0.018518518518518517,0.07130356354373062,0.1249578574014556
+j1/base_t2,"10 steps, replan 5",libero_10,put the black bowl in the bottom drawer of the cabinet and close it,3,2,1,263,53,1,1,4,1.3421245813711833,0.1320754716981132,0.10625649125000614,0.18510399490353324
+j1/base_t2,"10 steps, replan 5",libero_10,put the black bowl in the bottom drawer of the cabinet and close it,3,3,1,209,42,1,1,2,1.3077689553710097,0.0,0.0775477672835887,0.12092127189902584
+j1/base_t2,"10 steps, replan 5",libero_10,put the white mug on the left plate and put the yellow and white mug on the right plate,4,2,1,227,46,2,1,6,1.4049330769940036,0.0,0.07957040446559602,0.1739389115296996
+j1/base_t2,"10 steps, replan 5",libero_10,put the white mug on the left plate and put the yellow and white mug on the right plate,4,3,1,221,45,2,1,5,1.4194410282722802,0.0,0.06612911696509326,0.10889845496518019
+j1/base_t2,"10 steps, replan 5",libero_10,pick up the book and place it in the back compartment of the caddy,5,2,1,159,32,1,0,3,0.9374532613430951,0.0,0.0926379414042054,0.15604082155518167
+j1/base_t2,"10 steps, replan 5",libero_10,pick up the book and place it in the back compartment of the caddy,5,3,1,267,54,1,0,1,1.1090756374705442,0.2037037037037037,0.1386605707413932,0.2921465658851522
+j1/base_t2,"10 steps, replan 5",libero_10,put the white mug on the plate and put the chocolate pudding to the right of the plate,6,2,1,227,46,2,1,3,1.395232877126322,0.0,0.07088008544384293,0.12644537441470088
+j1/base_t2,"10 steps, replan 5",libero_10,put the white mug on the plate and put the chocolate pudding to the right of the plate,6,3,1,230,46,2,1,5,1.1765191065820009,0.021739130434782608,0.08065242605574903,0.1687644833489111
+j1/base_t2,"10 steps, replan 5",libero_10,put both the alphabet soup and the cream cheese box in the basket,7,2,1,242,49,2,1,4,1.7898794127347255,0.0,0.10092391783701493,0.14515775663941963
+j1/base_t2,"10 steps, replan 5",libero_10,put both the alphabet soup and the cream cheese box in the basket,7,3,1,254,51,2,1,4,1.7571553638229491,0.0,0.08039633711804875,0.13142372760543483
+j1/base_t2,"10 steps, replan 5",libero_10,put both moka pots on the stove,8,2,0,520,104,1,0,1,0.5395045586897826,0.7307692307692307,0.11489276542213603,0.20201031148958787
+j1/base_t2,"10 steps, replan 5",libero_10,put both moka pots on the stove,8,3,0,520,104,4,4,10,1.8889525367879507,0.019230769230769232,0.10434758966960717,0.1750642699338713
+j1/base_t2,"10 steps, replan 5",libero_10,put the yellow and white mug in the microwave and close it,9,2,1,260,52,1,1,2,1.4028235493100483,0.0,0.1662151905799191,0.4184260229438867
+j1/base_t2,"10 steps, replan 5",libero_10,put the yellow and white mug in the microwave and close it,9,3,0,520,104,1,1,2,1.3683823986247623,0.25961538461538464,0.174510634264509,0.3558631953271429
+j2/steps1,"1 step, replan 5",libero_10,put both the alphabet soup and the tomato sauce in the basket,0,0,1,264,53,2,1,6,1.8575714512001817,0.018867924528301886,0.0680783654659684,0.11033855206978455
+j2/steps1,"1 step, replan 5",libero_10,put both the alphabet soup and the tomato sauce in the basket,0,1,1,270,54,2,1,4,1.7606265940034953,0.0,0.05279841789391345,0.08652813412803946
+j2/steps1,"1 step, replan 5",libero_10,put both the cream cheese box and the butter in the basket,1,0,1,255,51,2,1,6,2.1145316181853913,0.0,0.06957541570755446,0.10930600974700182
+j2/steps1,"1 step, replan 5",libero_10,put both the cream cheese box and the butter in the basket,1,1,1,245,49,2,1,4,2.1102768037421895,0.0,0.08405547468915799,0.17118010282061832
+j2/steps1,"1 step, replan 5",libero_10,turn on the stove and put the moka pot on it,2,0,1,234,47,2,2,4,1.4180243733995044,0.0425531914893617,0.06837564992105376,0.09622052544248666
+j2/steps1,"1 step, replan 5",libero_10,turn on the stove and put the moka pot on it,2,1,1,285,57,2,1,3,1.409295673279749,0.0,0.041689735146459524,0.06827889747820241
+j2/steps1,"1 step, replan 5",libero_10,put the black bowl in the bottom drawer of the cabinet and close it,3,0,1,216,44,1,1,2,1.330649089295503,0.0,0.055582310060858335,0.08633211369044343
+j2/steps1,"1 step, replan 5",libero_10,put the black bowl in the bottom drawer of the cabinet and close it,3,1,1,210,42,1,1,4,1.2640376088988625,0.023809523809523808,0.08212616691591355,0.1376031595511037
+j2/steps1,"1 step, replan 5",libero_10,put the white mug on the left plate and put the yellow and white mug on the right plate,4,0,1,224,45,2,1,3,1.5242380027602527,0.0,0.06250899746829074,0.112604735176452
+j2/steps1,"1 step, replan 5",libero_10,put the white mug on the left plate and put the yellow and white mug on the right plate,4,1,1,214,43,2,1,3,1.4793486888348057,0.0,0.05082127265161238,0.08704388601688866
+j2/steps1,"1 step, replan 5",libero_10,pick up the book and place it in the back compartment of the caddy,5,0,1,160,32,1,0,1,0.969960792226272,0.03125,0.06153410063060294,0.08692715898211914
+j2/steps1,"1 step, replan 5",libero_10,pick up the book and place it in the back compartment of the caddy,5,1,1,162,33,1,0,1,1.0123348417962568,0.0,0.05482707215180445,0.08799129661318916
+j2/steps1,"1 step, replan 5",libero_10,put the white mug on the plate and put the chocolate pudding to the right of the plate,6,0,1,215,43,2,1,3,1.193190673332396,0.0,0.051326758198983274,0.09850963422436633
+j2/steps1,"1 step, replan 5",libero_10,put the white mug on the plate and put the chocolate pudding to the right of the plate,6,1,1,212,43,2,1,3,1.300396690743952,0.0,0.05324127931182405,0.07879855660938068
+j2/steps1,"1 step, replan 5",libero_10,put both the alphabet soup and the cream cheese box in the basket,7,0,1,228,46,2,1,4,1.7165508096467756,0.0,0.08292364983211402,0.14839322031373983
+j2/steps1,"1 step, replan 5",libero_10,put both the alphabet soup and the cream cheese box in the basket,7,1,1,264,53,2,1,6,1.7750422597605233,0.0,0.08574284586280935,0.1419295791028533
+j2/steps1,"1 step, replan 5",libero_10,put both moka pots on the stove,8,0,0,520,104,2,1,13,1.9034103458645804,0.20192307692307693,0.07962883540990445,0.1452260315279112
+j2/steps1,"1 step, replan 5",libero_10,put both moka pots on the stove,8,1,1,364,73,2,1,3,2.0476984164687417,0.0,0.051729132474796186,0.0915858077915207
+j2/steps1,"1 step, replan 5",libero_10,put the yellow and white mug in the microwave and close it,9,0,1,240,48,1,1,2,1.4337533207710866,0.0,0.07158592403341114,0.11628481402891598
+j2/steps1,"1 step, replan 5",libero_10,put the yellow and white mug in the microwave and close it,9,1,1,250,50,1,1,2,1.4534934413758491,0.0,0.08761576189691289,0.19201864786635647
+j2/steps3,"3 steps, replan 5",libero_10,put both the alphabet soup and the tomato sauce in the basket,0,0,1,265,53,2,1,6,1.9173213610819146,0.018867924528301886,0.062499646646374,0.09999898789563451
+j2/steps3,"3 steps, replan 5",libero_10,put both the alphabet soup and the tomato sauce in the basket,0,1,1,279,56,2,1,6,1.810362156689517,0.0,0.07703021010530904,0.13153193456796564
+j2/steps3,"3 steps, replan 5",libero_10,put both the cream cheese box and the butter in the basket,1,0,1,240,48,2,1,4,1.998060023126261,0.020833333333333332,0.08457630983972113,0.17297845958181307
+j2/steps3,"3 steps, replan 5",libero_10,put both the cream cheese box and the butter in the basket,1,1,1,269,54,2,1,10,2.158868378523589,0.0,0.08340205574403858,0.1582574098702708
+j2/steps3,"3 steps, replan 5",libero_10,turn on the stove and put the moka pot on it,2,0,1,209,42,2,1,3,1.3553490477587773,0.07142857142857142,0.07020368225520084,0.1147020890029925
+j2/steps3,"3 steps, replan 5",libero_10,turn on the stove and put the moka pot on it,2,1,1,290,58,2,1,3,1.4224442674695912,0.0,0.05025707496783603,0.09810124524671279
+j2/steps3,"3 steps, replan 5",libero_10,put the black bowl in the bottom drawer of the cabinet and close it,3,0,1,217,44,1,1,2,1.3309157449845863,0.0,0.05812026584713935,0.11624252691638016
+j2/steps3,"3 steps, replan 5",libero_10,put the black bowl in the bottom drawer of the cabinet and close it,3,1,1,230,46,1,1,2,1.2937291628641525,0.021739130434782608,0.08544009688307477,0.19190168540190777
+j2/steps3,"3 steps, replan 5",libero_10,put the white mug on the left plate and put the yellow and white mug on the right plate,4,0,1,231,47,2,1,3,1.5387016572654535,0.02127659574468085,0.06671934849290087,0.12223501304983705
+j2/steps3,"3 steps, replan 5",libero_10,put the white mug on the left plate and put the yellow and white mug on the right plate,4,1,1,221,45,2,1,3,1.520382683469629,0.0,0.054130979989198795,0.10192055951778936
+j2/steps3,"3 steps, replan 5",libero_10,pick up the book and place it in the back compartment of the caddy,5,0,1,160,32,1,0,1,0.9566120421264378,0.0,0.07160946664016615,0.10894894301725762
+j2/steps3,"3 steps, replan 5",libero_10,pick up the book and place it in the back compartment of the caddy,5,1,1,157,32,1,0,1,1.0238661394361788,0.0,0.05728792371951455,0.08798346393945666
+j2/steps3,"3 steps, replan 5",libero_10,put the white mug on the plate and put the chocolate pudding to the right of the plate,6,0,1,207,42,2,1,3,1.218540156523211,0.0,0.04861663418268459,0.0956440530349951
+j2/steps3,"3 steps, replan 5",libero_10,put the white mug on the plate and put the chocolate pudding to the right of the plate,6,1,1,224,45,2,1,3,1.247153612656431,0.0,0.05927241897731205,0.12099836738720943
+j2/steps3,"3 steps, replan 5",libero_10,put both the alphabet soup and the cream cheese box in the basket,7,0,1,236,48,2,1,6,1.7313895818955323,0.0,0.09204820203992291,0.17529711591968308
+j2/steps3,"3 steps, replan 5",libero_10,put both the alphabet soup and the cream cheese box in the basket,7,1,1,298,60,2,1,10,1.8598007612009517,0.05,0.11391108392369985,0.20736207151796635
+j2/steps3,"3 steps, replan 5",libero_10,put both moka pots on the stove,8,0,1,406,82,2,1,5,2.240791080214503,0.0,0.0542570367255898,0.1048113329929787
+j2/steps3,"3 steps, replan 5",libero_10,put both moka pots on the stove,8,1,1,361,73,2,1,4,2.1479136304149518,0.0,0.04791039691364013,0.0934891926827923
+j2/steps3,"3 steps, replan 5",libero_10,put the yellow and white mug in the microwave and close it,9,0,1,248,50,1,1,2,1.448802163469172,0.0,0.06623530697921101,0.11752834176237621
+j2/steps3,"3 steps, replan 5",libero_10,put the yellow and white mug in the microwave and close it,9,1,1,251,51,1,1,4,1.4690623220729306,0.0196078431372549,0.0893884676406086,0.21285992166625867
+j3/replan10,"10 steps, replan 10",libero_10,put both the alphabet soup and the tomato sauce in the basket,0,0,0,520,52,2,2,19,1.8523792541369595,0.3076923076923077,,
+j3/replan10,"10 steps, replan 10",libero_10,put both the alphabet soup and the tomato sauce in the basket,0,1,1,267,27,2,1,4,1.7196478527531094,0.0,,
+j3/replan10,"10 steps, replan 10",libero_10,put both the cream cheese box and the butter in the basket,1,0,1,245,25,2,1,4,1.9863511273006575,0.0,,
+j3/replan10,"10 steps, replan 10",libero_10,put both the cream cheese box and the butter in the basket,1,1,1,250,25,2,1,4,2.1079289102311503,0.0,,
+j3/replan10,"10 steps, replan 10",libero_10,turn on the stove and put the moka pot on it,2,0,1,229,23,2,1,4,1.2633044370243098,0.0,,
+j3/replan10,"10 steps, replan 10",libero_10,turn on the stove and put the moka pot on it,2,1,1,325,33,2,1,8,1.5262285588639675,0.0,,
+j3/replan10,"10 steps, replan 10",libero_10,put the black bowl in the bottom drawer of the cabinet and close it,3,0,1,220,22,1,1,2,1.2337828319624597,0.0,,
+j3/replan10,"10 steps, replan 10",libero_10,put the black bowl in the bottom drawer of the cabinet and close it,3,1,1,254,26,1,1,2,1.3563008790162956,0.0,,
+j3/replan10,"10 steps, replan 10",libero_10,put the white mug on the left plate and put the yellow and white mug on the right plate,4,0,1,225,23,2,1,3,1.476412770298478,0.0,,
+j3/replan10,"10 steps, replan 10",libero_10,put the white mug on the left plate and put the yellow and white mug on the right plate,4,1,1,216,22,2,1,3,1.4147569485912914,0.0,,
+j3/replan10,"10 steps, replan 10",libero_10,pick up the book and place it in the back compartment of the caddy,5,0,1,198,20,1,0,1,1.0525643308058532,0.0,,
+j3/replan10,"10 steps, replan 10",libero_10,pick up the book and place it in the back compartment of the caddy,5,1,1,224,23,1,0,1,1.1724278829624868,0.0,,
+j3/replan10,"10 steps, replan 10",libero_10,put the white mug on the plate and put the chocolate pudding to the right of the plate,6,0,1,211,22,2,1,3,1.2148861743647472,0.0,,
+j3/replan10,"10 steps, replan 10",libero_10,put the white mug on the plate and put the chocolate pudding to the right of the plate,6,1,1,225,23,2,1,5,1.2239820630810585,0.0,,
+j3/replan10,"10 steps, replan 10",libero_10,put both the alphabet soup and the cream cheese box in the basket,7,0,1,243,25,2,1,4,1.7480986222747161,0.0,,
+j3/replan10,"10 steps, replan 10",libero_10,put both the alphabet soup and the cream cheese box in the basket,7,1,1,274,28,2,1,4,1.8082822507219258,0.0,,
+j3/replan10,"10 steps, replan 10",libero_10,put both moka pots on the stove,8,0,1,403,41,2,1,5,2.195162056782327,0.0,,
+j3/replan10,"10 steps, replan 10",libero_10,put both moka pots on the stove,8,1,1,427,43,3,2,6,2.221056684975435,0.0,,
+j3/replan10,"10 steps, replan 10",libero_10,put the yellow and white mug in the microwave and close it,9,0,1,231,24,1,1,4,1.3528071473768222,0.0,,
+j3/replan10,"10 steps, replan 10",libero_10,put the yellow and white mug in the microwave and close it,9,1,1,238,24,1,1,2,1.3297836076963312,0.0,,
+j3/steps3_replan10,"3 steps, replan 10",libero_10,put both the alphabet soup and the tomato sauce in the basket,0,0,1,277,28,2,1,6,1.8703617870309779,0.0,,
+j3/steps3_replan10,"3 steps, replan 10",libero_10,put both the alphabet soup and the tomato sauce in the basket,0,1,1,266,27,2,1,4,1.7055041511294955,0.0,,
+j3/steps3_replan10,"3 steps, replan 10",libero_10,put both the cream cheese box and the butter in the basket,1,0,1,240,24,2,1,4,1.975859041800517,0.0,,
+j3/steps3_replan10,"3 steps, replan 10",libero_10,put both the cream cheese box and the butter in the basket,1,1,1,244,25,2,1,4,2.047407205126595,0.0,,
+j3/steps3_replan10,"3 steps, replan 10",libero_10,turn on the stove and put the moka pot on it,2,0,1,209,21,2,1,3,1.2926007187307076,0.0,,
+j3/steps3_replan10,"3 steps, replan 10",libero_10,turn on the stove and put the moka pot on it,2,1,1,290,29,2,1,5,1.3974725240129917,0.0,,
+j3/steps3_replan10,"3 steps, replan 10",libero_10,put the black bowl in the bottom drawer of the cabinet and close it,3,0,1,222,23,1,1,2,1.3400310260707007,0.0,,
+j3/steps3_replan10,"3 steps, replan 10",libero_10,put the black bowl in the bottom drawer of the cabinet and close it,3,1,1,213,22,1,1,2,1.257811333205755,0.0,,
+j3/steps3_replan10,"3 steps, replan 10",libero_10,put the white mug on the left plate and put the yellow and white mug on the right plate,4,0,1,224,23,2,1,3,1.4798080796012751,0.0,,
+j3/steps3_replan10,"3 steps, replan 10",libero_10,put the white mug on the left plate and put the yellow and white mug on the right plate,4,1,1,225,23,2,1,3,1.4589321739267986,0.0,,
+j3/steps3_replan10,"3 steps, replan 10",libero_10,pick up the book and place it in the back compartment of the caddy,5,0,1,183,19,1,0,1,1.0519157757214275,0.0,,
+j3/steps3_replan10,"3 steps, replan 10",libero_10,pick up the book and place it in the back compartment of the caddy,5,1,1,245,25,1,0,1,1.2311155204763953,0.0,,
+j3/steps3_replan10,"3 steps, replan 10",libero_10,put the white mug on the plate and put the chocolate pudding to the right of the plate,6,0,1,209,21,2,1,3,1.1262617277523679,0.0,,
+j3/steps3_replan10,"3 steps, replan 10",libero_10,put the white mug on the plate and put the chocolate pudding to the right of the plate,6,1,1,229,23,2,1,3,1.2108816839201204,0.0,,
+j3/steps3_replan10,"3 steps, replan 10",libero_10,put both the alphabet soup and the cream cheese box in the basket,7,0,1,243,25,2,1,4,1.7055406512047178,0.0,,
+j3/steps3_replan10,"3 steps, replan 10",libero_10,put both the alphabet soup and the cream cheese box in the basket,7,1,1,270,27,2,1,4,1.7295941702246866,0.0,,
+j3/steps3_replan10,"3 steps, replan 10",libero_10,put both moka pots on the stove,8,0,1,397,40,2,1,4,2.1904240068276435,0.0,,
+j3/steps3_replan10,"3 steps, replan 10",libero_10,put both moka pots on the stove,8,1,1,426,43,2,1,5,2.115302439644895,0.046511627906976744,,
+j3/steps3_replan10,"3 steps, replan 10",libero_10,put the yellow and white mug in the microwave and close it,9,0,1,246,25,1,1,2,1.4052118671313636,0.0,,
+j3/steps3_replan10,"3 steps, replan 10",libero_10,put the yellow and white mug in the microwave and close it,9,1,1,245,25,1,1,6,1.4829537051115065,0.0,,
+smoke/base,"10 steps, replan 5",libero_spatial,pick up the black bowl between the plate and the ramekin and place it on the plate,0,0,1,104,21,2,1,3,0.9011064622484303,0.0,0.11634681594800714,0.16159502567811013
+smoke/base,"10 steps, replan 5",libero_spatial,pick up the black bowl next to the ramekin and place it on the plate,1,0,1,109,22,1,0,1,1.0662360980651837,0.0,0.08876479127284341,0.15661582867969098
+smoke/base,"10 steps, replan 5",libero_spatial,pick up the black bowl from table center and place it on the plate,2,0,1,117,24,1,0,1,0.8551400274862347,0.0,0.09959768151344815,0.20747863532056227
+smoke/base,"10 steps, replan 5",libero_spatial,pick up the black bowl on the cookie box and place it on the plate,3,0,1,86,18,1,0,1,0.8635971518488167,0.0,0.10381861437207329,0.15022712572310826
+smoke/base,"10 steps, replan 5",libero_spatial,pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate,4,0,0,220,44,4,3,11,1.2469131253027173,0.0,0.49932455669156217,1.3010431008295764
+smoke/base,"10 steps, replan 5",libero_spatial,pick up the black bowl on the ramekin and place it on the plate,5,0,1,98,20,1,0,1,0.815728921993269,0.0,0.13934564657124088,0.3676045307736944
+smoke/base,"10 steps, replan 5",libero_spatial,pick up the black bowl next to the cookie box and place it on the plate,6,0,1,106,22,1,0,1,0.9638559135572067,0.0,0.08855840754042543,0.15162251125435855
+smoke/base,"10 steps, replan 5",libero_spatial,pick up the black bowl on the stove and place it on the plate,7,0,1,121,25,1,0,1,0.984964067941779,0.0,0.09434466460421435,0.12421311007615848
+smoke/base,"10 steps, replan 5",libero_spatial,pick up the black bowl next to the plate and place it on the plate,8,0,1,112,23,1,0,1,0.9708252301990913,0.0,0.09280825448241141,0.1594794433177029
+smoke/base,"10 steps, replan 5",libero_spatial,pick up the black bowl on the wooden cabinet and place it on the plate,9,0,1,116,24,1,0,2,1.1965546948933865,0.0,0.0891973816212707,0.15173525101079052

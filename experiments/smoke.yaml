@@ -1,0 +1,6 @@
+# Pipeline check on the easiest suite: 1 episode per task, one arm.
+defaults:
+  eval: {suite: libero_spatial, trials: 1}
+  bench: {calls: 50}
+arms:
+  base: {}

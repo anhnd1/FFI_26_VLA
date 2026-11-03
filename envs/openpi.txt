@@ -1,0 +1,3 @@
+# openpi, used as a library (network, checkpoint reader, tokenizer, LIBERO submodule). Cloned at this commit on
+# Kaggle (kaggle/job.sh) and locally into openpi/ (README), never modified.
+https://github.com/Physical-Intelligence/openpi 215abfb217dbac7d5f1273282331b9b1866c0479

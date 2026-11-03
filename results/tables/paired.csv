@@ -1,0 +1,5 @@
+config,paired episodes,baseline only,config only,exact p
+"1 step, replan 5 (j2/steps1)",20,0,0,1.0
+"3 steps, replan 5 (j2/steps3)",20,0,1,1.0
+"10 steps, replan 10 (j3/replan10)",20,1,1,1.0
+"3 steps, replan 10 (j3/steps3_replan10)",20,0,1,1.0
